@@ -27,6 +27,6 @@ def fizzBuzz():
     # if number is multiple of 5
       print("Buzz")
     else:
-      print(i)
+      print(n)
 
 fizzBuzz()
