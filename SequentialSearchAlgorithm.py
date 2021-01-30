@@ -7,3 +7,8 @@ def seqSearch(numList,n):
       break
   
   return isThere
+
+numbers = range(0,101)
+
+seqSearch(numbers,27) # Returns True
+seqSearch(numbers,111) # Returns False
