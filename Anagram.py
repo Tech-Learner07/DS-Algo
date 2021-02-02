@@ -8,6 +8,7 @@ Check whether two words are anagram.
 Solution:
 '''
 
+
 def isAnagram(w1, w2):
     w1 = w1.lower()
     w2 = w2.lower()
@@ -15,5 +16,5 @@ def isAnagram(w1, w2):
     return sorted(w1) == sorted(w2)
 
 
-isAnagram('Listen', 'Silent') # returns True
-isAnagram('python', 'javascript') # returns False
+isAnagram('Listen', 'Silent')  # returns True
+isAnagram('python', 'javascript')  # returns False
