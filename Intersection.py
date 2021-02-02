@@ -15,3 +15,15 @@ list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 list2 = [2, 3, 5, 7, 11, 13, 17, 19]
 
 print(intersection(list1, list2))
+
+'''
+It can be done in another way using the python inbuilt intersection()
+function.
+This only works with a set()
+'''
+
+
+def intersection1(list1, list2):
+    set1 = set(list1)
+    set2 = set(list2)
+    return list(set1.intersection(set2))
